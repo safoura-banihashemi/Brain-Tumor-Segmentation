@@ -1,10 +1,5 @@
 # Brain-Tumor-Segmentation
 
+This project presents a deep learning-based pipeline for brain tumor segmentation using MRI scans. Leveraging a U-Net architecture, the model is trained to accurately detect tumor regions within brain images. The performance of the model is evaluated using Dice coefficient and loss metrics, ensuring reliable segmentation results.
 
-### 📐 3D Tumor Visualization
-
-This figure shows the segmented tumor (in color) overlaid on the brain structure (in pink):
-
-![3D Tumor Visualization](newplot (1).png)
-
-[🔗 View Interactive 3D Plot](https://your-hosted-link.com)
+![Brain-Tumor-segmentation](newplot (1).png)
