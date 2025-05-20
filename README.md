@@ -4,3 +4,8 @@ This project presents a deep learning-based pipeline for brain tumor segmentatio
 
 ![Brain Tumor Segmentation](newplot%20(1).png)
 
+## Dataset
+
+## U-Net Architecture
+
+## Results 
