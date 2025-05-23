@@ -4,7 +4,8 @@ This project presents a deep learning-based pipeline for brain tumor segmentatio
 
 Interactive demo live 👉 https://t.co/8WimhfZKKn
 
-<center><img src="images/GrdyWe8XAAAfHaK.png" width="200"/></center>
+<p align="left"> <img src="images/GrdyWe8XAAAfHaK.png" width="400">
+
 
 ## Database (BraTS2020 Dataset)
 
