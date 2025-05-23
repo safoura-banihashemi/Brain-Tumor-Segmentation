@@ -2,9 +2,9 @@
 
 This project presents a deep learning-based pipeline for brain tumor segmentation using MRI scans. Leveraging a U-Net architecture, the model is trained to accurately detect tumor regions within brain images. The performance of the model is evaluated using Dice coefficient and loss metrics, ensuring reliable segmentation results.
 
-Interactive demo live 👉 https://t.co/8WimhfZKKn
+Interactive demo live 👉 https://t.co/8WimhfZKKn <left><img src="images/GrdyWe8XAAAfHaK.png" width="400"/></left>
 
-<img src="images/GrdyWe8XAAAfHaK.png" width="400"/>
+
 
 ## Database (BraTS2020 Dataset)
 
