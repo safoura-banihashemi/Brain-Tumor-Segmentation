@@ -37,4 +37,18 @@ Segmentation masks represent labeled regions as follows:
 
 ## U-Net Architecture
 
+## Loss
+
 ## Results 
+
+ Model evaluation on the test set:
+Loss : 0.0272
+MeanIOU : 0.8153
+Dice coefficient : 0.7609
+Precision : 0.9943
+Sensitivity : 0.9942
+Specificity : 0.9981
+Dice coef Necrotic : 0.6286
+Dice coef Edema : 0.7101
+Dice coef Enhancing : 0.7049
+
