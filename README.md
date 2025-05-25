@@ -7,7 +7,7 @@ Interactive demo live 👉 https://t.co/8WimhfZKKn
 
 <p align="left"> <img src="images/GrdyWe8XAAAfHaK.png" width="400">
 
-# Repository structure
+## Repository structure
 
 * Brain_tumor_segmentation_final.ipynb : Main notebook containing the entire project workflow (data loading, training, evaluation, etc.)
 * requirements.txt : Dependencies required to run the project
