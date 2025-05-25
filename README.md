@@ -35,3 +35,15 @@ Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Slide Show Support in JupyterLab
+
+To enable slide show presentations in JupyterLab notebooks, install the following:
+
+### Installation
+
+```bash
+pip install "jupyterlab>=4.1.2"
+pip install jupyterlab_rise
+```
