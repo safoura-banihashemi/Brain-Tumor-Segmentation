@@ -6,49 +6,31 @@ Interactive demo live 👉 https://t.co/8WimhfZKKn
 
 <p align="left"> <img src="images/GrdyWe8XAAAfHaK.png" width="400">
 
+# Repository structure
 
-## Database (BraTS2020 Dataset)
+* Brain_tumor_segmentation_final.ipynb : Main notebook containing the entire project workflow (data loading, training, evaluation, etc.)
+* requirements.txt : Dependencies required to run the project
+* presentation/ : Contains a presentation version of the project, viewable as slides in JupyterLab
+  * presentation_file.ipynb - Presentation notebook
+  * presentation_file.html - HTML slideshow version
+* demo_file/ : Files used for 3D tumor visualization on Hugging Face Spaces 
+  * app.py - Main 3D visualization script using Plotly
+  * requirements.txt - Dependencies required to run the demo
+* saved_file/ : Contains files saved during training 
+  * my_model (1).keras - Saved trained model
+  * training (1) - File storing training and validation metrics per epoch
+ 
+## Features
 
+- U-Net architecture for 2D tumor slice segmentation
+- Custom loss function: Dice Loss + Categorical Crossentropy
+- Real-time 3D visualization of tumor regions using Plotly
+- Presentation-ready slide deck for project walkthrough
+- Compatible with Hugging Face Spaces demo deployment
 
-<img src="https://production-media.paperswithcode.com/datasets/f8984c79-9923-41af-9d18-18510cd1ae82.png" width="400"/>
+## Requirements
 
+Install all dependencies using:
 
-The dataset contains 3D MRI images in NIfTI format (.nii.gz). Each patient record includes four MRI modalities and one segmentation mask:
-
-T1: Native Scan
-
-T1ce: Contrast-Enhanced T1 Scan
-
-T2: T2-Weighted Scan
-
-FLAIR: Fluid-Attenuated Inversion Recovery Scan
-
-Segmentation masks represent labeled regions as follows:
-
-0: Background (no tumor)
-
-1: Non-Enhancing Tumor Core
-
-2: Peritumoral Edema (swelling around the tumor)
-
-3: Missing label
-
-4: Enhancing Tumor
-
-## U-Net Architecture
-
-## Loss
-
-## Results 
-
- Model evaluation on the test set:
-Loss : 0.0272
-MeanIOU : 0.8153
-Dice coefficient : 0.7609
-Precision : 0.9943
-Sensitivity : 0.9942
-Specificity : 0.9981
-Dice coef Necrotic : 0.6286
-Dice coef Edema : 0.7101
-Dice coef Enhancing : 0.7049
-
+```bash
+pip install -r requirements.txt
