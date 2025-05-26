@@ -1,0 +1,6 @@
+gradio
+plotly
+numpy
+scikit-image
+scikit-learn
+nibabel
