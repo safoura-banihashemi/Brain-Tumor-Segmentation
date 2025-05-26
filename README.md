@@ -1,6 +1,6 @@
 # Brain-Tumor-Segmentation
 
-This project presents a deep learning-based pipeline for brain tumor segmentation using MRI scans. Leveraging a U-Net architecture, the model is trained to accurately detect tumor regions within brain images. The model’s performance is evaluated using Dice coefficient and combined loss metrics, ensuring both precise localization and robust segmentation accuracy. MRI modalities such as FLAIR and T1CE are used as input channels, providing the model with complementary information about tumor structure and tissue contrast. The output is a multi-class segmentation map that differentiates between tumor core, edema, enhancing tumor, and background.
+This project presents a deep learning-based pipeline for brain tumor segmentation using MRI scans. Leveraging a U-Net architecture, the model is trained to accurately detect tumor regions within brain images. The model’s performance is evaluated using combined loss metrics and Dice coefficient. MRI modalities (FLAIR + T1CE) are used as input channels and The output is a multi-class segmentation map that differentiates between tumor core, edema, enhancing tumor, and background.
 
 
 Interactive demo live 👉 https://t.co/8WimhfZKKn
